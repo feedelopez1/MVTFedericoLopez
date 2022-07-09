@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Entrega.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['D:/Users/Fedee/Django/Proyectos/MVTFederico/Plantillas/template1.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
