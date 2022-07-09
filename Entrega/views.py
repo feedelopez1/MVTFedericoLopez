@@ -28,17 +28,3 @@ def familia(request):
    documento=plantilla.render(miContexto)
    return HttpResponse (documento)
 
-'''
-   padre=Integrante('Ricardo','Padre',55,'08/12')
-   padre.save()
-   diccionario={'pn':padre.nombre,'pr':padre.relacion,'p.e':padre.edad,'p.f':padre.fecha}
-
-   madre=Integrante('Claudia','Madre',54,'27/11')
-   madre.save()
-   diccionario.update({'mn':madre.nombre,'mr':madre.relacion,'me':madre.edad,'mf':madre.fecha})
-
-   hermana=Integrante('Paula','Hermana',26,'13/07')
-   hermana.save()
-   diccionario.update({'hn':hermana.nombre,'hr':hermana.relacion,'he':hermana.edad,'hf':hermana.fecha})
-   
-'''
